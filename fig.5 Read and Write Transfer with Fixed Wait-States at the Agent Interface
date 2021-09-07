@@ -1,0 +1,19 @@
+{ signal: [
+  { name: "clk",           wave: "p......." },
+  { name: "address",       wave: "x.3...x4......x.", data:"address address",period:0.5},
+  { name: "byteenable",    wave: "x.3...x4......x.", data:"byteenable byteenable",period:0.5},
+  { name: "read",          wave: "01.0...."},
+  { name: "write",         wave: "0...1..."},
+  { name: "readdata",      wave: "x.3x....", data:"readdata"},
+  { name: "response",      wave: "x.3x....", data:"response"},
+  { name: "writedata",     wave: "x...3..x", data:"writedata"}
+  ],
+ head:{
+   text:'Read and Write transfer with fixed wait states at the Agent Interface',
+   tick:0,
+ },
+ foot:{
+   text:'Figure 5',
+   },
+  config: { hscale: 2 }
+}
