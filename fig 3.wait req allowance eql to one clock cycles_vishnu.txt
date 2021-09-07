@@ -1,0 +1,17 @@
+
+{signal: [
+  {name: "clk",            		 wave: "p.............."},
+  {name: "write",		         wave: "01..01.0101.010"},
+  {name: "waitrequest",			 wave: "0..1.0..1.01.0."},
+  {name: "data[7:0]",			 wave: "x542x75x8x45x6x", data:["A0","A1","A2","A3","A4","B0","B1","B2","B3"]},
+  
+
+],
+head:{
+  text:"Host Write: waitrequest Allowance equals one clock cycles",
+   tick:0,
+ },
+ foot:{
+   text:'Figure 03',
+   tock:9
+ },}

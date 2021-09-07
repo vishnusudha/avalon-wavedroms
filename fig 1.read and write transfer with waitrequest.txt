@@ -1,0 +1,20 @@
+{signal: [
+  {name: "clk",            		 wave: "p.|......."},
+  {name: "address",		         wave: "x5|.x2.|.x", data:["address"]},
+  {name: "byteenable",			 wave: "x7|.x2.|.x", data:["byteenable"]},
+  {name: "read",	                 wave: "01|..0.|.."},
+  {name: "write",			 wave: "0.|...1|.0"},
+  {name: "waitrequest",			 wave: "01|.0.1|.0"},
+  {name: "readdata",			 wave: "x.|9.x.|..", data:["readdata"]},
+  {name: "response",			 wave: "x.|4.x.|..", data:["readdata"]},
+  {name: "writedata",			 wave: "x.|..9.|.x",data:["writedata"]}
+ 
+],
+head:{
+  text:"Host Write: Read and Write Transfers with Waitrequest",
+   tick:0,
+ },
+ foot:{
+   text:'Figure 01',
+   tock:8
+ },}
