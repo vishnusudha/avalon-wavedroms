@@ -1,0 +1,19 @@
+{ signal: [
+  { name: "clk",                         wave: "p..........." },
+  { name: "address",                     wave: "x2.=.x......", data:"A0(HostA)  A1(HostB)"},
+  { name: "read",                        wave: "01...0......"},
+  { name: "beginbursttransfer",          wave: "01010......."},
+  { name: "waitrequest",                 wave: "x101x......."},
+  { name: "burstcount",                  wave: "x2.=.x......", data:"4 2"},
+  { name: "readdatavalid",               wave: "0...1.01...0"},
+  { name: "readdata",                    wave: "x...2=x2===x", data:"D(A0) D(A0+) D(A0+) D(A0+3) D(A1) D(A1+)"}
+  ],
+ head:{
+   text:'read burst',
+   tick:0,
+ },
+ foot:{
+   text:'Figure 8',
+   },
+  config: { hscale: 2 }
+}
