@@ -1,0 +1,21 @@
+{signal: [
+  {name: "clk",            		 wave: "p............."},
+  {name: "sop",		             wave: "010|.........."},
+  {name: "eop",		             wave: "0|....10......"},
+  {name: "valid",		         wave: "01....0......."},
+  {name: "data",			     wave: "x34565x|......",data:["D0","D1","D2","D3","D4"]},
+  {name: "return_credit",		 wave: "0.|.....1...0."},
+  {name: "outstanding_credit",   wave: "234567.|2345..",data:["100","99","98","97","96","95","94","93","92","91"]},
+  
+  
+  
+ 
+],
+head:{
+  text:"Source returning the credits",
+   tick:0,
+ },
+ foot:{
+   text:'Figure 35',
+   tock:8
+ },}

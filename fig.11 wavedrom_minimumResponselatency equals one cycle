@@ -1,0 +1,15 @@
+{ signal: [
+  { name: "clk",                         wave: "p............"},
+  { name: "read",                        wave: "010.1.0......"},
+  { name: "readdatavalid",               wave: "0.10......1.0"},
+  { name: "data",                        wave: "x.2x......2.x"}
+  ],
+ head:{
+   text:'minimumResponselatency equals one cycle',
+   tick:0,
+ },
+ foot:{
+   text:'Figure 10',
+   },
+  config: { hscale: 2 }
+}

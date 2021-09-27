@@ -1,0 +1,16 @@
+{ signal: [
+  { name: "clk",                          wave: "p........"},
+  { name: "valid",                        wave: "0.1.0.1.0"},
+  { name: "channel",                      wave: "x.2=x.22x"},
+  { name: "error",                        wave: "x.2=x.22x"},
+  { name: "data",                         wave: "x.2=x.22x", data:"D0 D1 D2 D3"}
+],
+ head:{
+   text:'Data Transfer without Backpressure',
+  
+ },
+ foot:{
+   text:'Figure 14',
+   },
+  config: { hscale: 2 }
+}

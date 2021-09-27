@@ -1,0 +1,18 @@
+{signal: [
+  {name: "clk",            		 wave: "p................"},
+  {name: "request",		         wave: "101....0.1......."},
+  {name: "grant",		         wave: "1.0.1...01......."},
+  {name: "data_out[31:0]",   wave: "23x.4567463782637",data:["0","a","b","c","d","e","f","10","11","12","13","14","15","16","17"]},
+  
+  
+  
+ 
+],
+head:{
+  text:"Tristate conduit arbitration timing",
+   tick:0,
+ },
+ foot:{
+   text:'Figure 39',
+   tock:8
+ },}

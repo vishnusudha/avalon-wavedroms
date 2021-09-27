@@ -1,0 +1,20 @@
+{ signal: [
+  { name: "clk",                          wave: "p........"},
+  { name: "ready",                        wave: "0........"},
+  { name: "valid",                        wave: "01.01..0."},
+  { name: "channel",                      wave: "x2=x2==x."},
+  { name: "error",                        wave: "x2=x2==x."},
+  { name: "data[31:24]",                  wave: "x2=x2==x.", data:"D0 D4 D8 DC D10"},
+  { name: "data[23:16]",                  wave: "x2=x2==x.", data:"D1 D5 D9 DD D11"},
+  { name: "data[15:8]",                   wave: "x2=x2==x.", data:"D2 D6 DA DE D12"},
+  { name: "data[7:0]",                    wave: "x2=x2==x.", data:"D3 D7 DB DF D13"}
+  ],
+ head:{
+   text:'Layout of Data',
+  
+ },
+ foot:{
+   text:'Figure 14',
+   },
+  config: { hscale: 2 }
+}

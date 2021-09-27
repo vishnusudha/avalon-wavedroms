@@ -1,0 +1,26 @@
+{signal: [
+  {name: "clk",            		 wave: "p......."},
+  {name: "pready",		         wave: "1......."},
+  {name: "valid",			     wave: "01.01..0"},
+  {name: "startofpacket",	     wave: "010....."},
+  {name: "endofpacket",	         wave: "0.....10"},
+  
+  {name: "empty",			     wave: "x.....2x",data:["3"]},
+  {name: "channel",			     wave: "x22x222x",data:["0","0","0","0","0"]},
+  {name: "error",			     wave: "x22x222x",data:["0","0","0","0","0"]},
+  {name: "data[31:24]",			 wave: "x22x222x",data:["D0","D4","D8","D12","D16"]},
+  {name: "data[23:16",			 wave: "x22x22xx",data:["D1","D5","D9","D13"]},
+  {name: "data[15:8]",			 wave: "x22x22xx",data:["D2","D6","D10","D14",]},
+  {name: "data[7:0]",			 wave: "x22x22xx",data:["D3","D7","D11","D15",]},
+ 
+  
+ 
+],
+head:{
+  text:"Packet Transfer",
+   tick:0,
+ },
+ foot:{
+   text:'Figure 32',
+   tock:8
+ },}

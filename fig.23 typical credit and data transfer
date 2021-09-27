@@ -1,0 +1,23 @@
+{signal: [
+  {name: "clk",            		 wave: "p...|.........."},
+  {name: "update",		         wave: "010|..........."},
+  {name: "credit",			     wave: "x3x|...........",data:["3"]},
+  {name: "valid",		         wave: "0........|1...0"},
+  {name: "data",			     wave: "x.........3456x",data:["AA","BB","CC","DD"]},
+   {name: "update",		         wave: "0..|.10........"},
+   {name: "credit",			     wave: "x....3x........",data:["4"]},
+   {name: "valid",		         wave: "0.....|1...0..."},
+    {name: "data",			     wave: "x......3456x...",data:["AA","BB","CC","DD"]},
+  
+  
+  
+ 
+],
+head:{
+  text:"Typical credit and data Transfer",
+   tick:0,
+ },
+ foot:{
+   text:'Figure 34',
+   tock:8
+ },}

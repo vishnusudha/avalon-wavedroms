@@ -1,0 +1,17 @@
+{ signal: [
+  { name: "clk",                          wave: "p........."},
+  { name: "ready",                        wave: "0..1..01.0"},
+  { name: "valid",                        wave: "0.1..01..0"},
+  { name: "channel",                      wave: "x.2.=x2.=x"},
+  { name: "error",                        wave: "x.2.=x2.=x"},
+  { name: "data",                         wave: "x.2.=x2.=x", data:"D0 D1 D2 D3"}
+],
+ head:{
+   text:'Transfer with Backpressure, readyLatency=0',
+   tick: 0
+ },
+ foot:{
+   text:'Figure 19',
+   },
+  config: { hscale: 0 }
+}

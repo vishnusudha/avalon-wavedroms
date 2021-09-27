@@ -1,0 +1,15 @@
+{ signal: [
+  { name: "clk0",                         wave: "p.............."},
+  { name: "ready",                        wave: "0.1.0.1.0.1.0.."},
+  { name: "valid",                        wave: "0.1..010101.010"},
+  { name: "data",                         wave: "x.2==x2x2x22x2x", data:"D0 D1 D2 D3 D4 D5 D6 D7"}
+],
+ head:{
+   text:'readyLatency = 0, readyAllowance = 1',
+   tick: 0
+ },
+ foot:{
+   text:'Figure 17',
+   },
+  config: { hscale: 0 }
+}
